@@ -1,7 +1,7 @@
 const { description } = require("../../package");
 
 module.exports = {
-  title: "Vuepress Docs Boilerplate",
+  title: "vuepress-plugin-disqus",
 
   description: description,
 
@@ -15,34 +15,9 @@ module.exports = {
   ],
 
   themeConfig: {
-    editLinks: true,
-    lastUpdated: false,
-    nav: [
-      {
-        text: "Guide",
-        link: "#guide"
-      },
-      {
-        text: "Demo",
-        link: "#demo"
-      },
-      {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org"
-      }
-    ],
-    sidebar: {
-      "/": [
-        {
-          title: "Guide",
-          collapsable: false
-        },
-        {
-          title: "Demo",
-          collapsable: false
-        }
-      ]
-    }
+    repo: "newsbielt703/vuepress-plugin-disqus",
+    sidebar: "auto",
+    smoothScroll: true
   },
 
   plugins: [[require("../../src/index"), { shortname: "vuepress-plugin-blog" }]]
