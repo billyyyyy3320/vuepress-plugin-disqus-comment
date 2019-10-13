@@ -8,7 +8,7 @@ export default ({ Vue }) => {
 
   Vue.component("vue-disqus", {
     functional: true,
-    render(h, { parent, data }) {
+    render(h, {parent,props,data}) {
       // if (!options.locale) {
       //   if (!data.attrs) {
       //     data.attrs = {};
@@ -29,9 +29,7 @@ export default ({ Vue }) => {
       // SSR-friendly
       if (parent._isMounted) {
         return h(DisqusComponent, {
-          props: {
-            ...options
-          }
+          props: Object.assign({},options,props)
         });
       } else {
         parent.$once("hook:mounted", () => {

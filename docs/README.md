@@ -62,7 +62,7 @@ Prop            | Data Type  | required  | Description
 `remote_auth_s3`| String     | false     | implementation with Laravel/PHP
 `language`      | String     | false     | Language overrides
 
-Actually, They're also all the configuration options for this plugin. It allows you to config globally. What you config will be passed to every `vue-disqus` component. 
+Actually, They're also all the configuration options for this plugin. It allows you to config globally. What you config will be passed to every `vue-disqus` component. You're still able to override it by passing down props.
 
 ## Demo
 
