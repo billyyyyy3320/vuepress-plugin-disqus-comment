@@ -1,7 +1,7 @@
 const { description } = require("../../package");
 
 module.exports = {
-  title: "vuepress-plugin-disqus",
+  title: "vuepress-plugin-disqus-comment",
 
   description: description,
 
@@ -20,5 +20,5 @@ module.exports = {
     smoothScroll: true
   },
 
-  plugins: [[require("../../src/index"), { shortname: "vuepress-plugin-blog" }]]
+  plugins: [[require("../../src/index"), { shortname: "vuepress-plugin-disqus-comment" }]]
 };
