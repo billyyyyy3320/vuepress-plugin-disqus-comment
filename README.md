@@ -1,5 +1,7 @@
 # vuepress-plugin-disqus-comment
 
+[![NPM version](https://img.shields.io/npm/v/vuepress-plugin-disqus-comment)](https://www.npmjs.com/package/vuepress-plugin-disqus-comment)
+
 VuePress plugin for Disqus. Based on [vue-disqus](https://github.com/ktquez/vue-disqus).
 
 ## Install
@@ -22,6 +24,8 @@ module.exports = {
   ]
 };
 ```
+
+Check out the full [documentation](https://vuepress-plugin-disqus.netlify.com/).
 
 ## License
 
