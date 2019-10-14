@@ -8,28 +8,12 @@ export default ({ Vue }) => {
 
   Vue.component("vue-disqus", {
     functional: true,
-    render(h, {parent,props,data}) {
-      // if (!options.locale) {
-      //   if (!data.attrs) {
-      //     data.attrs = {};
-      //   }
-      //   if (!data.attrs.options) {
-      //     data.attrs.options = {};
-      //   }
-      //   if (!data.attrs.options.locale) {
-      //     data.attrs.options = Object.assign(
-      //       {
-      //         locale: parent.$lang || "en"
-      //       },
-      //       data.attrs.options
-      //     );
-      //   }
-      // }
-
+    render(h, { parent, props }) {
       // SSR-friendly
       if (parent._isMounted) {
         return h(DisqusComponent, {
-          props: Object.assign({},options,props)
+          // Priority: VuePress's $lang as default language < global configuration < props
+          props: Object.assign({ language: parent.$lang }, options, props)
         });
       } else {
         parent.$once("hook:mounted", () => {
