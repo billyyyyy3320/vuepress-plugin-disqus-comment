@@ -1,4 +1,4 @@
-# vuepress-plugin-Disqus
+# vuepress-plugin-disqus-comment
 
 Disqus is a platform that provides commenting used by hundreds of thousands of websites. This plugin simplifies adding Disqus to your VuePress site.
 
@@ -7,8 +7,8 @@ Disqus is a platform that provides commenting used by hundreds of thousands of w
 First of all, you have to sign up for [Disqus](https://disqus.com/profile/signup/).
 
 ```bash
-yarn add vuepress-plugin-Disqus -D
-# OR npm install vuepress-plugin-Disqus -D
+yarn add vuepress-plugin-disqus-comment -D
+# OR npm install vuepress-plugin-disqus-comment -D
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Take a look at [Using a Plugin](https://vuepress.vuejs.org/plugin/using-a-plugin
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    "vuepress-plugin-Disqus",
+    "vuepress-plugin-disqus-comment",
     {
       /* options */
     }

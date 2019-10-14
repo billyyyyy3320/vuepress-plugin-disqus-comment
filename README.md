@@ -1,12 +1,12 @@
-# vuepress-plugin-Disqus
+# vuepress-plugin-disqus-comment
 
 VuePress plugin for Disqus. Based on [vue-disqus](https://github.com/ktquez/vue-disqus).
 
 ## Install
 
 ```bash
-yarn add vuepress-plugin-Disqus -D
-# OR npm install vuepress-plugin-Disqus -D
+yarn add vuepress-plugin-disqus-comment -D
+# OR npm install vuepress-plugin-disqus-comment -D
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add vuepress-plugin-Disqus -D
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    "vuepress-plugin-Disqus",
+    "vuepress-plugin-disqus-comment",
     {
       /* options */
     }

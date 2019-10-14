@@ -1,7 +1,7 @@
 const { path } = require("@vuepress/shared-utils");
 
 module.exports = options => ({
-  name: "Disqus",
+  name: "disqus-comment",
 
   enhanceAppFiles: [path.resolve(__dirname, "enhanceAppFile.js")],
 

@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-plugin-disqus",
+  "name": "vuepress-plugin-disqus-comment",
   "version": "0.0.1",
   "description": "Adding Disqus comments to VuePress",
   "keywords": [
