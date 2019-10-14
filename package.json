@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "author": "Billyyyyy3320 <newsbielt703@gmail.com>",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build:docs": "vuepress build docs --temp docs/.temp",
     "dev:docs": "vuepress dev docs --temp docs/.temp"
