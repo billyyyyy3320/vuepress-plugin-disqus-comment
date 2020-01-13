@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "vuepress": "^1.2.0",
-    "vuepress-types": "^0.3.0"
+    "vuepress-types": "^0.7.0"
   }
 }
