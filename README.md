@@ -1,3 +1,7 @@
+# THIS PROJECT HAS BEEN FULLY INTEGRATED INTO [vuepress-plugin-disqus](https://github.com/lorisleiva/vuepress-plugin-disqus)
+
+---
+---
 # vuepress-plugin-disqus-comment
 
 [![NPM version](https://img.shields.io/npm/v/vuepress-plugin-disqus-comment)](https://www.npmjs.com/package/vuepress-plugin-disqus-comment)
