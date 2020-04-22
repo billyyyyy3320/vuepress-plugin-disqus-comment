@@ -7242,10 +7242,10 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-types@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vuepress-types/-/vuepress-types-0.3.0.tgz#993e9f54587fc5b7cd10c96ff3ad215ea5479b8a"
-  integrity sha512-ByHnmN0MSY5d9mKsTxh8Qq+LiFBIXnrpKXm54ek4S53rZJ+fBUHyVox4xUAOR+6QukjQiMzh6zXgdfPLDQpDUw==
+vuepress-types@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/vuepress-types/-/vuepress-types-0.7.0.tgz#bf2c149990e41bccabc95f1128055c0371357518"
+  integrity sha512-AlfKUiYciofJYefwtWwRr13gcAMjdQOrzlfXwa8Jff7jnpAwqtASDpAK8de6dE8VJtBQqhcw6d9QyURmal8cAg==
   dependencies:
     "@types/express" "^4.17.1"
     "@types/markdown-it" "^0.0.8"
